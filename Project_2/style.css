@@ -1,0 +1,384 @@
+#one
+{
+    background-image: url('background.gif');
+    height:90%;
+    width:100%;
+    
+}
+.profileimg
+{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    margin-top:8%;
+    margin-left: 42%;
+}
+#name
+{
+    color: white;
+    font-family: Cursive;
+    font-size:55px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#abc::before
+{ 
+    display: flex; 
+    justify-content: center;
+    margin-top:-50px; 
+    color:white;
+    content: "Web Developer"; 
+    animation: animate infinite 7s; 
+    padding-left: 10px; 
+    text-align: center;
+    font-size:40px;
+
+} 
+@keyframes animate { 
+  
+    0% { 
+        content: "Web Developer"; 
+    } 
+
+    50% 
+    { 
+        content: "Java Programmer"; 
+    }
+}
+.icons
+{
+    display: grid;
+    list-style-type: none;
+    margin-left:35%;
+    grid-template-columns: repeat(16,1fr);
+} 
+.connect
+{
+    
+
+    font-size: 40px;
+    color: white;
+    background-color: white;
+    width:50px;
+    border-radius: 50%;
+    padding:5px;
+    text-align: center;
+    margin:7px;
+   
+}
+.connect:hover
+{
+    background-color:teal;
+}
+a:hover
+{
+text-decoration: none;
+color: white;
+
+}
+i:hover
+{
+    animation: mymove 2s;
+}
+@keyframes mymove 
+{
+    50% 
+    {
+        transform: rotate(360deg);
+    }
+}
+.about
+{
+    height: 100%;
+}
+.hello
+{
+    font-size: 30px;
+    font-family: cursive;
+    margin:30px;
+    background-image:url('header.gif');
+    width:500px;
+    color:white;
+    padding-left:14px;
+}
+.clearfix 
+{
+    overflow: auto;
+}
+.img2
+{
+    float: right;
+    margin-top: -10px;
+    width:500px;
+    height: 530px;
+    margin-right: 40px;
+}
+.intro
+{
+    font-size: 24px;
+    padding: 5px;
+    width: 700px;
+    height:500px;
+    padding: 10px;
+    background-image: url('background.gif');
+    margin-left:70px;
+    word-spacing: 5px;
+    font-family: Sans-serif;
+    color:white;
+}
+.cv
+{
+    border:none;
+    background-color: white;
+    width:200px;
+    font-size: 24px;
+    height:50px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top:40px;
+    margin-left:230px;
+}
+.skillsHeading
+{
+    font-family: cursive;
+    font-size: 60px;
+    margin:30px;
+    background-image:url('header.gif');
+    width:480px;
+    color:white;
+    padding-left:14px;
+}
+.skillList
+{
+    
+    background-image: url('background.gif');
+}
+.languages
+{
+    color:white;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.java
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    margin:20px;
+    margin-left: 280px;
+    background-color: white;
+}
+.c
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%; 
+    margin:20px;
+    margin-left: 50px; 
+    background-color: white;  
+
+}
+.oops 
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%; 
+    margin:20px;
+    margin-left: 450px; 
+    background-color: white;  
+}
+.secLine
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%; 
+    margin:20px;
+    margin-left: 530px;
+    background-color: white; 
+}
+.Bootstrap
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%; 
+    margin:20px;
+    margin-left: 50px; 
+    background-color: white;
+}
+.mysql
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    margin:20px;
+    margin-left:540px;
+    background-color: white; 
+    
+}
+.git
+{
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lang:hover ,span
+{
+  opacity: 0.5;
+content: "80%";
+color:whitesmoke;
+}
+.currentLearning
+{
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+}
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 330px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+   
+  }
+  .card:hover 
+  {
+    box-shadow: 6px 8px 6px 6px black;
+    max-width: 350px;
+  }
+  .learning 
+  {
+    font-size:30px;
+  }
+  .learn 
+  {
+      font-size:30px;
+      line-height: 3.2rem;
+      font-family: Comic Sans MS;
+      margin-top: -10px;
+  }
+.projects
+{
+    background-image: url('background.gif');
+    color:white;
+}
+.container
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+.card1 {
+  
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+    color: black;
+    height: 100%;
+  }
+  
+  .card1:hover
+  {
+    box-shadow: 0 8px 6px 6px gray;
+    max-width: 330px;
+  }
+  
+  .card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card1 button:hover {
+    opacity: 0.7;
+   
+  }
+  /* Start of Contact Form */
+
+.touch
+{
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  
+  label {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(255, 184, 51);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 380px;
+    font-size: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 175, 26);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

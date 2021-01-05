@@ -1,0 +1,82 @@
+           nav
+            {
+                background-color:rgb(51, 51, 51);
+                height:80px;
+            }
+            .img
+            {
+                width:50px;
+                margin:10px;
+            }
+            .neha
+            {
+                color: white;
+                font-family: Monospace;
+                font-size: 50px;
+                margin-left: 55px;
+                
+            }
+            .ul
+            {
+                float:right;
+                margin-top: -94px;
+            }  
+            .li
+            {
+                font-size: 24px;
+                display:inline-block;
+                color:white;
+                padding:5px;
+                margin:5px;
+            }
+           #open, #close
+            {
+                width:50px;
+                float:right;
+                margin-right:30px;
+                line-height:80px;
+                display:none;
+            }
+            #checkBox
+            {
+                display:none;
+            }
+            li:hover
+            {
+                background-color: rgb(102, 102, 102);
+            }
+            @media all and (max-width:600px)
+            {
+                
+                #open
+                {
+                    display:block;
+                }
+                .ul
+                {
+                    position:fixed;
+                    height:100%;
+                    width:100%;
+                    background-color:#000033;
+                    top:60px;
+                    text-align:center;
+                    display:none;
+                }
+                li
+                {
+                    display:block;
+                    margin:20px 10px;
+                }
+                #checkBox:checked~ul
+                {
+                    display:block;
+                }
+                #checkBox:checked~label #open
+                {
+                    display:none;
+                }
+                #checkBox:checked~label #close
+                {
+                    display:block;
+                }
+            }
