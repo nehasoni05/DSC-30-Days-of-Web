@@ -1,0 +1,41 @@
+<html lang="en"><grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="cGcvT"></grammarly-extension><head>
+    <title>Task List</title>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap" rel="stylesheet">
+  </head>
+
+  <body onload="getData()" data-new-gr-c-s-check-loaded="14.991.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.991.0">
+    <div id="wrapper" class="cf">
+      <div id="sidebar">
+        <h1>TODO List</h1>
+        <p>Add the tasks to your own TODO list and press enter</p>
+
+        <ul id="task-list"></ul>
+      </div>
+      <div id="task-container">
+        <textarea id="task" name="task" placeholder="Tasks for today..." spellcheck="false"></textarea>
+      </div>
+    </div>
+
+    <script type="text/x-handlebars-template" id="task-template">
+      {{task}}
+      <a href="#" class="delete">
+        ×
+      </a>
+      <a href="#" class="check">
+        ☐
+      </a>
+    </script>
+
+    <!-- Library JS -->
+    <script src="handlebars.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  
+
+</body><grammarly-extension class="cGcvT"></grammarly-extension></html>
