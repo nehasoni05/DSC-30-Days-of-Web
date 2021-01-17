@@ -1,0 +1,113 @@
+/* Apply a natural box layout model to all elements */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font: 16px/1.6 "Nunito", sans-serif;
+    color: #333;
+    height: 100%;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  
+  h1,h2,h3 {
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+  
+  #wrapper {
+    height: 100%;
+    min-width: 960px;
+  }
+  
+  #sidebar {
+    width: 440px;
+    padding: 0 40px;
+    float: left;
+    height: 100%;
+    overflow: auto;
+    background-color: whitesmoke;
+    border-right: 1px solid #ddd;
+  
+    box-shadow: 2px 0px 10px #dfdfdf;
+    
+  }
+  
+  #sidebar h1 {
+    padding-top: 10px;
+  }
+  
+  #task-container {
+    margin-left: 440px;
+    height: 100%;
+  }
+  
+  #task {
+    font-size: 64px;
+    font-weight: bold;
+    color: #666;
+    outline: none;
+    border: none;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 40px 60px;
+  }
+  
+  #task-list {
+    padding-left: 0;
+    margin: 0 -40px;
+  }
+  
+  #task-list li {
+    list-style-type: none;
+    padding: 5px 40px;
+    border-bottom: 1px solid #ddd;
+    line-height: 25px;
+  }
+  
+  .delete, .check 
+  {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+  }
+  
+  .checked
+   {
+    text-decoration: line-through;
+  }
+  
+  .check {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 1px;
+  }
+  
+  .cf:before, .cf:after 
+  {
+    content: " ";
+    display: table;
+  }
+  
+  .cf:after
+   {
+    clear: both;
+  }
+  
+ 
